@@ -82,13 +82,13 @@ public class Test_cases {
 		
 		if(expectedResult != actualResult) {
 			
-			testOutcome += "Test failed. Expected result does not equal actual result";
+			testOutcome += "Test failed. Expected result " + expectedResult + " does not equal actual result " + actualResult;
 			
 		}
 		
 		else {
 			
-			testOutcome += "Test passed";
+			testOutcome += "Test passed. Actual result " + actualResult + " equals expected result " + expectedResult;
 			
 		}
 		
@@ -121,13 +121,13 @@ public class Test_cases {
 		
 		if(actualResult != expectedResult) {
 			
-			testOutcome += "Test failed. Actual result does not equal expected result";
+			testOutcome += "Test failed. Actual result" + actualResult + " does not equal expected result " + expectedResult;
 			
 		}
 		
 		else {
 
-			testOutcome += "Test passed";
+			testOutcome += "Test passed. Actual result " + actualResult + " equals expected result " + expectedResult;
 			
 		}
 		
@@ -159,13 +159,13 @@ public class Test_cases {
 		
 		if(actualResult != expectedResult) {
 			
-			testOutcome += "Test failed. Actual result does not equal expected result";
+			testOutcome += "Test failed. Actual result " + actualResult + " does not equal expected result " + expectedResult;
 			
 		}
 		
 		else {
 
-			testOutcome += "Test passed";
+			testOutcome += "Test passed. Actual result " + actualResult + " equals expected result " + expectedResult;
 			
 		}
 		
@@ -199,13 +199,13 @@ public class Test_cases {
 		
 		if(actualResult != expectedResult) {
 			
-			testOutcome += "Test failed. Actual result does not equal expected result";
+			testOutcome += "Test failed. Actual result " + actualResult + " does not equal expected result " + expectedResult;
 			
 		}
 		
 		else {
 
-			testOutcome += "Test passed";
+			testOutcome += "Test passed. Actual result " + actualResult + " equals expected result " + expectedResult;
 			
 		}
 		
